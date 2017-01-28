@@ -30,7 +30,7 @@
 
         // Parse Crud
         function get(galleryId) {
-            return new Parse.Query(this).include('profile').get(galleryId);
+            return new Parse.Query(ParseObject).include('profile').get(galleryId);
         }
 
         function put(item) {

@@ -1,14 +1,15 @@
-#view-home {    
-    .has-header {
-        margin-top: 44px;
+#view-home {
+
+
+  .bar-subheader {
+    padding: 0;
+
+    .button {
+      margin: 0;
+
+      &.active {
+        border: none;
+      }
     }
-    .bar-subheader {
-        padding: 0;
-        .button {
-            margin: 0;
-            &.active {
-                border: none;
-            }
-        }
-    }
+  }
 }

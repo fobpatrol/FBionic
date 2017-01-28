@@ -26,15 +26,15 @@
          user="data[$index].user.obj"
          width="100%"
          img-cache
-         ic-src="{{::data[$index].imageThumb.url() || 'img/user.png'}}"
-         />
+         ic-src="{{::data[$index].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"/>
     <img ng-if="!profile"
          ion-slideshow
          ng-model="data"
          index="$index"
          img-cache
-         ic-src="{{::data[$index].imageThumb.url() || 'img/user.png'}}"
-
+         ic-src="{{::data[$index].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"
          width="100%"/>
   </div>
   <div class="col col-33 " ng-if="$index + 1 < data.length">
@@ -42,13 +42,13 @@
          profile-modal
          user="data[$index + 1].user.obj"
          img-cache
-         ic-src="{{::data[$index + 1].imageThumb.url() || 'img/user.png'}}"
-
+         ic-src="{{::data[$index + 1].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"
          width="100%"/>
     <img ng-if="!profile" ion-slideshow ng-model="data" index="$index+1"
          img-cache
-         ic-src="{{::data[$index + 1].imageThumb.url() || 'img/user.png'}}"
-
+         ic-src="{{::data[$index + 1].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"
          width="100%"/>
   </div>
   <div class="col col-33 " ng-if="$index + 2 < data.length">
@@ -56,16 +56,16 @@
          profile-modal
          user="data[$index + 2].user.obj"
          img-cache
-         ic-src="{{::data[$index + 2].imageThumb.url() || 'img/user.png'}}"
-
+         ic-src="{{::data[$index + 2].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"
          width="100%"/>
     <img ng-if="!profile"
          ion-slideshow
          ng-model="data"
          index="$index+2"
          img-cache
-         ic-src="{{::data[$index + 2].imageThumb.url() || 'img/user.png'}}"
-
+         ic-src="{{::data[$index + 2].imageThumb || 'img/user.png'}}"
+         ic-default="img/user.png"
          width="100%"/>
   </div>
 
