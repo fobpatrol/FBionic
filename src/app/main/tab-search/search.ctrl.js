@@ -27,7 +27,7 @@
         function loadFeed() {
             if ($scope.loading) return;
             $scope.loading = true;
-            Gallery.search($scope.params).then(function (data) {
+            Gallery.feed($scope.params).then(function (data) {
                 if (data.length > 0) {
                     $scope.params.page++;
                     data.map(function (item) {

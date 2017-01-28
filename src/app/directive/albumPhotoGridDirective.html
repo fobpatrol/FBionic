@@ -9,7 +9,7 @@
 
     <ion-content class="padding">
 
-        <div class="center padding" ng-if="loading">
+        <div class="center padding" ng-show="loading">
             <ion-spinner></ion-spinner>
         </div>
 
@@ -18,33 +18,33 @@
              ng-if="!loading && $index % 3 === 0">
             <div class="col col-33 " ng-if="$index < data.length">
                 <img ng-if="profile" profile-modal user="data[$index].user.obj"
-                     ic-src="{{ ::data[$index].imageThumb.url()}}"
+                     ic-src="{{ ::data[$index].imageThumb}}"
                      img-cache
                      ic-default="img/user.png"
                      width="100%"/>
                 <img ng-if="!profile" ion-slideshow can-edit="canEdit" ng-model="data" index="$index"
                      img-cache
-                     ic-src="{{ ::data[$index].imageThumb.url()}}" width="100%"/>
+                     ic-src="{{ ::data[$index].imageThumb}}" width="100%"/>
             </div>
             <div class="col col-33 " ng-if="$index + 1 < data.length">
                 <img ng-if="profile" profile-modal user="data[$index + 1].user.obj"
                      img-cache
                      ic-default="img/user.png"
-                     ic-src="{{ ::data[$index + 1].imageThumb.url()}}"
+                     ic-src="{{ ::data[$index + 1].imageThumb}}"
                      width="100%"/>
                 <img ng-if="!profile" ion-slideshow can-edit="canEdit" ng-model="data" index="$index+1"
                      img-cache
-                     ic-src="{{ ::data[$index + 1].imageThumb.url()}}" width="100%"/>
+                     ic-src="{{ ::data[$index + 1].imageThumb}}" width="100%"/>
             </div>
             <div class="col col-33 " ng-if="$index + 2 < data.length">
                 <img ng-if="profile" profile-modal user="data[$index + 2].user.obj"
                      img-cache
                      ic-default="img/user.png"
-                     ic-src="{{ ::data[$index + 2].imageThumb.url()}}" width="100%"/>
+                     ic-src="{{ ::data[$index + 2].imageThumb}}" width="100%"/>
                 <img ng-if="!profile" ion-slideshow can-edit="canEdit" ng-model="data" index="$index+2"
                      img-cache
                      ic-default="img/user.png"
-                     ic-src="{{ ::data[$index + 2].imageThumb.url()}}" width="100%"/>
+                     ic-src="{{ ::data[$index + 2].imageThumb}}" width="100%"/>
             </div>
 
         </div>

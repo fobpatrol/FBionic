@@ -6,7 +6,7 @@
     function HomeController($state, $rootScope, $ionicHistory) {
         var vm = this;
 
-        vm.type = 'public';
+        vm.type = 'follow';
 
         vm.onFeed = function (type) {
             vm.type = type;

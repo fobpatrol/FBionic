@@ -136,6 +136,7 @@
         if (!window.cordova) {
             $facebookProvider.setAppId(AppConfig.facebookAppId);
             $facebookProvider.setPermissions('id,name,email,user_likes,bio');
+            $facebookProvider.setVersion('v2.8');
         }
     }
 
