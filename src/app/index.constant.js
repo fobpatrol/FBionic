@@ -18,7 +18,7 @@
             facebookAppId  : '243372496113928',
             parse          : {
                 appId : 'fde3a43c-8f25-44e6-8aa8-3923d78338f1',
-                server: 'https://parse.buddy.com/parse/',
+                server: 'https://farmbserv.herokuapp.com/parse/',
             },
             map            : {
                 unit: 'mi',
