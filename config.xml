@@ -14,7 +14,7 @@
   <preference name="android-minSdkVersion" value="20"/>
   <preference name="android-targetSdkVersion" value="20"/>
   <preference name="ParseAppId" value="fde3a43c-8f25-44e6-8aa8-3923d78338f1"/>
-  <preference name="ParseServerUrl" value="https://farmbserv.herokuapp.com/parse"/>
+  <preference name="ParseServerUrl" value="https://parse.buddy.com/parse/"/>
   <preference name="ParseGcmSenderId" value=""/>
   <preference name="BackupWebStorage" value="locqal"/>
   <preference name="AutoHideSplashScreen" value="false"/>
