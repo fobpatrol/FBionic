@@ -6,7 +6,7 @@
         return {
             path           : 'app/module/photogram',
             app            : {
-                name : 'Photogram',
+                name : 'FarmBooth',
                 url  : 'http://photogramapp.com',
                 image: 'http://photogramapp.com/social-share.jpg',
             },
@@ -15,10 +15,10 @@
                 login: 'intro'
             },
             theme          : 'positive',
-            facebookAppId  : '1024016557617380',
+            facebookAppId  : '243372496113928',
             parse          : {
-                appId : 'myAppId',
-                server: 'https://photogram.codevibe.io/parse/',
+                appId : 'fde3a43c-8f25-44e6-8aa8-3923d78338f1',
+                server: 'https://parse.buddy.com/parse/',
             },
             map            : {
                 unit: 'mi',

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.agenciafoccus.photogram" version="3.0.35" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Photogram</name>
+  <name>FarmBooth</name>
   <description>Share photos of your moments</description>
   <author email="agfoccus@gmail.com" href="http://agenciafoccus.com.br/">Agencia Foccus</author>
   <content src="index.html"/>
@@ -13,9 +13,9 @@
   <allow-intent href="geo:*"/>
   <preference name="android-minSdkVersion" value="20"/>
   <preference name="android-targetSdkVersion" value="20"/>
-  <preference name="ParseAppId" value="myAppId"/>
-  <preference name="ParseServerUrl" value="https://photogram.codevibe.io/parse/"/>
-  <preference name="ParseGcmSenderId" value="338362594839"/>
+  <preference name="ParseAppId" value="fde3a43c-8f25-44e6-8aa8-3923d78338f1"/>
+  <preference name="ParseServerUrl" value="https://parse.buddy.com/parse/"/>
+  <preference name="ParseGcmSenderId" value=""/>
   <preference name="BackupWebStorage" value="locqal"/>
   <preference name="AutoHideSplashScreen" value="false"/>
   <preference name="SplashScreenDelay" value="10000"/>
@@ -105,8 +105,8 @@
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <plugin name="org.pbernasconi.progressindicator" spec="https://github.com/GroupAhead/cordova-progressIndicator"/>
   <plugin name="cordova-plugin-facebook4" spec="~1.7.4">
-    <variable name="APP_ID" value="1024016557617380"/>
-    <variable name="APP_NAME" value="Photogram"/>
+    <variable name="APP_ID" value="243372496113928"/>
+    <variable name="APP_NAME" value="FarmApp"/>
   </plugin>
   <plugin name="parse-push-plugin" spec="https://github.com/photogram/parse-push-plugin.git"/>
 </widget>

@@ -1,6 +1,6 @@
 {
-  "name": "Photogram",
-  "app_id": "ea42829b",
+  "name": "FarmApp",
+  "app_id": "a36ea2f9",
   "gulpStartupTasks": [
     "sass",
     "watch"
